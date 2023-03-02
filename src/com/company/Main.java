@@ -11,7 +11,6 @@ public class Main {
 
         Model model = new Model();
         IView view = new SwingView();
-
 //        IView view = new ViewConsole();
 
         Controller controller = new Controller(view, model);
