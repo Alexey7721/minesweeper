@@ -16,10 +16,5 @@ public class Main {
         Controller controller = new Controller(view, model);
         controller.start();
 
-        int i = 6;
-        short a = (short) i;
-
-        Short a1 = a;
-        int i1 = a;
     }
 }
